@@ -14,6 +14,7 @@ import jQueryImg from '../assets/img/technologies/jquery.png';
 import svgImg from '../assets/img/technologies/svg.png';
 import karmaImg from '../assets/img/technologies/karma.png';
 import jasmineImg from '../assets/img/technologies/jasmine.png';
+import expressjsImg from '../assets/img/technologies/expressjs.png';
 
 const members = [
     {name: 'Angular', img: angularImg,},
@@ -29,6 +30,7 @@ const members = [
     {name: 'SVG', img: svgImg,},
     {name: 'Karma', img: karmaImg,},
     {name: 'Jasmine', img: jasmineImg,},
+    {name: 'Expressjs', img: expressjsImg,},
 ];
 class Technologies extends Component {
     render(){
