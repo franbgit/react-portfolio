@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SingleProject from './SingleProject';
 
+import HackathonAppImg from '../assets/img/projects/hackathon-app.jpg';
 import reactCalculatorImg from '../assets/img/projects/react-calculator.png';
 import pagespeedInsightsImg from '../assets/img/projects/pagespeed-insights.png';
 import portfolioImg from '../assets/img/projects/portfolio.png';
@@ -8,11 +9,13 @@ import angularShopImg from '../assets/img/projects/angular-shop.png';
 import reactAgencyImg from '../assets/img/projects/react-agency.png';
 
 const projects = [
-    {title: 'React Calculator', subtitle: '', img: reactCalculatorImg, href: 'https://github.com/franbgit/reactCalculator'},
+    {title: 'Hackathon app', subtitle: '', img: HackathonAppImg, href: 'https://github.com/franbgit/hackaton-app'},
     {title: 'React Portfolio', subtitle: '', img: portfolioImg, href: 'https://github.com/franbgit/react-portfolio'},
     {title: 'Web Performance Optimization', subtitle: '', img: pagespeedInsightsImg, href: 'https://github.com/franbgit/course-pagespeed-insights'},
-    {title: 'React Agency', subtitle: '*in progress', img: reactAgencyImg, href: 'https://github.com/franbgit/react-agency'},
+    {title: 'React Calculator', subtitle: '', img: reactCalculatorImg, href: 'https://github.com/franbgit/reactCalculator'},
     {title: 'Angular Shop', subtitle: '*in progress', img: angularShopImg, href: 'https://github.com/franbgit/angular-shop'},
+    {title: 'React Agency', subtitle: '*in progress', img: reactAgencyImg, href: 'https://github.com/franbgit/react-agency'},
+    
 ];
 
 class Projects extends Component {
