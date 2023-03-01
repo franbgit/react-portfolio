@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import img from '../assets/img/about-me/photo.jpg';
 
 const socialNetworks = [
-    {target: 'linkedin', icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/francisco-barrios-cuesta-b31119113/'},
+    {target: 'linkedin', icon: 'fab fa-linkedin-in', url: 'https://www.linkedin.com/in/francisco-b-b31119113/'},
     {target: 'github', icon: 'fab fa-github-alt', url: 'https://github.com/franbgit/'},
 ];
 
@@ -24,7 +24,7 @@ class AboutMe extends Component {
                             }
                         </div>
                     </div>
-                    <h3 className="section-subheading text-muted">I studied for a Computer Engineer Degree at King Juan Carlos University, where I was taught several fields of Computer Science such as computer architecture, distributed systems, databases, Software engineering and so on. One of the things which took my curiosity was web development, which I started with an online course. From that moment on I have been working and focusing my career on it. Currently I have three years of experience as a software programmer mainly in Front-end websites. I have been working for several companies in the telecom sector but open to other sectors.</h3>
+                    <h3 className="section-subheading text-muted">I studied for a Informatics Engineering Degree at Rey Juan Carlos University, where I was taught several fields of Computer Science such as computer architecture, distributed systems, databases, Software engineering and so on. One of the things which took my curiosity was web development, which I started with an online course. From that moment on I have been working and focusing my career on it. Currently I have five years of experience as a software programmer, mainly in Front-end. I have been working for companies in the telecom and iGaming sectors but I am open to other industries.</h3>
                 </div>
             </div>
         </section>

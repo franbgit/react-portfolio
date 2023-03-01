@@ -1,12 +1,15 @@
 import React, {Component} from 'react';
 import SingleTechnology from './SingleTechnology';
 
+import golangImg from '../assets/img/technologies/golang.png';
+import dockerImg from '../assets/img/technologies/docker.png';
 import angularImg from '../assets/img/technologies/angular.png';
 import reactImg from '../assets/img/technologies/react.png';
 import typescriptImg from '../assets/img/technologies/typescript.png';
 import javascriptImg from '../assets/img/technologies/javascript.png';
 import html5Img from '../assets/img/technologies/html5.png';
 import css3Img from '../assets/img/technologies/css3.png';
+import bootstrapImg from '../assets/img/technologies/bootstrap.png';
 import npmImg from '../assets/img/technologies/npm.png';
 import gruntImg from '../assets/img/technologies/grunt.png';
 import gitImg from '../assets/img/technologies/git.png';
@@ -17,12 +20,15 @@ import jasmineImg from '../assets/img/technologies/jasmine.png';
 import expressjsImg from '../assets/img/technologies/expressjs.png';
 
 const members = [
+    {name: 'Golang', img: golangImg,},
+    {name: 'Docker', img: dockerImg,},
     {name: 'Angular', img: angularImg,},
     {name: 'React', img: reactImg,},
     {name: 'Typescript', img: typescriptImg,},
     {name: 'Javascript', img: javascriptImg,},
     {name: 'HTML5', img: html5Img,},
     {name: 'CSS3', img: css3Img,},
+    {name: 'Bootstrap', img: bootstrapImg,},
     {name: 'NPM', img: npmImg,},
     {name: 'Grunt', img: gruntImg,},
     {name: 'Git', img: gitImg,},

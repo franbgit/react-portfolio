@@ -37,7 +37,7 @@ class Contact extends Component {
                 <div className="container">
                     <div className="text-center">
                         <h2 className="section-heading text-uppercase">Contact Me</h2>
-                        <h3 className="section-subheading text-muted">Should you have any questions, please do not hesitate to either email me at franciscobarrioscuesta@gmail.com or fill in the below form:</h3>
+                        <h3 className="section-subheading text-muted">Should you have any questions, please do not hesitate to either email me at f.barrios@betstarters.com or fill in the below form:</h3>
                     </div>
                     <form onSubmit={this.submitForm} id="contactForm" name="sentMessage" noValidate="novalidate">
                         <div className="row align-items-stretch mb-5">
